@@ -16,7 +16,8 @@ function App() {
         <BounceLoader id="loader" color={"#3C70FF"} size={150} />
       ) : (
         <>
-          <h1 className="tituloPag">Rick and Morty</h1>
+          {/* <h1 className="tituloPag">Rick and Morty</h1> */}
+          <div className="tituloPag"><img src="../public/logo.png" alt="Rick and Morty" /></div>
           <CharacterList />
         </>
       )}
